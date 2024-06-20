@@ -1,0 +1,26 @@
+{
+  "name": "slackclone",
+  "version": "1.0.0",
+  "description": "a chat messaging slack clone application",
+  "main": "index.js",
+  "scripts": {
+    "start:slack": "nodemon slackClone/slack.js",
+    "start:namespace": "nodemon namespaces/namespaces.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Overton77"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "socket",
+    "slack"
+  ],
+  "author": "Overton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
