@@ -2,7 +2,6 @@
   "name": "slackclone",
   "version": "1.0.0",
   "description": "a chat messaging slack clone application",
-  "main": "index.js",
   "scripts": {
     "start:slack": "nodemon slackClone/slack.js",
     "start:namespace": "nodemon namespaces/namespaces.js"

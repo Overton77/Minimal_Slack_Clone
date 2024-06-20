@@ -19,11 +19,11 @@ was built for a course on socket.io on Udemy.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/minimal-slack-clone.git
-   cd minimal-slack-clone
+   git clone https://github.com/Overton77/Minimal_Slack_Clone.git
+
    ```
 
-2. Install the required packages:
+2. Install the required packages from the root:
 
    ```bash
    npm install
@@ -52,3 +52,23 @@ was built for a course on socket.io on Udemy.
    ```
 
 5. Start using the application by joining namespaces and rooms, and message each other in real-time.
+
+## Dependencies
+
+The application relies on the following Node.js packages:
+
+- socket.io
+- express
+
+## Scripts
+
+- `npm run start:slack`: Starts the Slack server.
+- `npm run start:namespace`: Starts the Namespace server.
+
+## Contributing
+
+Contributions are welcome! Please create a pull request or open an issue to discuss your changes.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
